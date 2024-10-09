@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lojinha do Zé Firme</title>
+    <link rel="stylesheet" type="text/css" href="vendas.css">
+</head>
+<body>
+    <div id="header">
+        <header>
+            <h1>Lojinha do Zé Firme</h1>
+        </header>
+
+        <nav>
+            <ul><b><u>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="ctrl-estoque.html">Controle de Estoque</a></li>
+                <li><a href="add-produto.html">Adicionar Produto</a></li>
+                <li><a href="funcionarios.html">Funcionários</a></li>
+                <li><a href="vendas.html">Pagina de Venda</a></li>
+            </u></b></ul>
+        </nav>
+    </div>
+    
+    <h2>Carrinho</h2>
+    
+    <form method="get" action="#">
+        <label id="cerealFL">Cereal Froot Loops: </label>
+        <input type="number" name="carrinho" id="cerealFL" min="0" max="28">
+        <br><br>
+        
+        <label id="abacaxi">Abacaxi: </label>
+        <input type="number" name="carrinho" id="abacaxi" min="0" max="39">
+        <br><br>
+        
+        <label id="salmao">Salmão: </label>
+        <input type="number" name="carrinho" id="salmao" min="0" max="9">
+        <br><br>
+        
+        <label id="arroz">Arroz Pra Valer 5kg: </label>
+        <input type="number" name="carrinho" id="arroz" min="0" max="31">
+        <br><br>
+        
+        <label id="asusNotebook">Notebook Asus: </label>
+        <input type="number" name="carrinho" id="asusNotebook" min="0" max="3">
+        <br><br>
+        
+        <label id="mpPagamento">Notebook Asus: </label>
+        <select id="mpPagamento">
+            <option id="mpPagamento" value="cartao">Cartão</option>
+            <option id="mpPagamento" value="dinheiro">Dinheiro</option>
+            <option id="mpPagamento" value="pix">Pix</option>
+            <option id="mpPagamento" value="bitcoin">Bitcoin</option>
+        </select>
+        <br><br>
+        <button type="submit">Confirmar Compra</button>
+    </form>
+
+    <footer>
+        <p><b>&copy;Lojinha do Zé Firme</b></p>
+    </footer>
+</body>
+</html>
